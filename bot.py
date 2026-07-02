@@ -58,7 +58,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton("📘 Sentence case", callback_data="sentencecase")
         ],
         [
-            InlineKeyboardButton("🔄 Reset / Show Stats", callback_data="stats")
+            InlineKeyboardButton("🔄 Show Stats Again", callback_data="stats")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
